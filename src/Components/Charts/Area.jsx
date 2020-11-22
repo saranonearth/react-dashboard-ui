@@ -24,6 +24,9 @@ const Area = () => {
       curve: "smooth",
     },
     xaxis: {
+      labels: {
+        show: false,
+      },
       type: "datetime",
       categories: [
         "2018-09-19T00:00:00.000Z",
@@ -39,14 +42,6 @@ const Area = () => {
       x: {
         format: "dd/MM/yy HH:mm",
       },
-    },
-    xaxis: {
-      labels: {
-        show: false,
-      },
-    },
-    dataLabels: {
-      enabled: false,
     },
     yaxis: {
       labels: {
